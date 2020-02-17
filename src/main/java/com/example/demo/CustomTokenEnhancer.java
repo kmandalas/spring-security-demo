@@ -16,7 +16,7 @@ public class CustomTokenEnhancer implements TokenEnhancer {
 
 		UserInfo userInfo = (UserInfo) authentication.getUserAuthentication().getPrincipal();
 
-		additionalInfo.put("organization", authentication.getName() + "Mandalas S.A.");
+		additionalInfo.put("organization", authentication.getName() + " S.A.");
 		additionalInfo.put("defaultProjectId", userInfo.getDefaultProjectId());
 		additionalInfo.put("preferredTimezone", userInfo.getPreferredTimezone());
 		additionalInfo.put("unlimitedCategoryAccess", userInfo.isUnlimitedCategoryAccess());
