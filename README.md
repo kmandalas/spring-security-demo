@@ -22,6 +22,7 @@ curl --location --request POST 'localhost:8090/oauth/token' \
 ```
 
 The following **error** occurs:
+
 ```
 2020-02-17 18:50:12.034  WARN 22484 --- [nio-8090-exec-3] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: IllegalStateException, UserDetailsService is required.
 ```
